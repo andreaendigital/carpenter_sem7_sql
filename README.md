@@ -19,7 +19,7 @@ Posteriormente deberás realizar reportes estadísticos orientados al análisis 
 
 ### ✨Requisitos   ✨
 
-####Caso 1: Implementación del modelo 
+👉 Caso 1: Implementación del modelo 
 
 Para la construcción del script de creación de las tablas del modelo relacional debes considerar lo siguiente:
 
@@ -40,7 +40,7 @@ Al crear las tablas, ten en cuenta:
 •	El identificador de las regiones es un número que se inicia en 7 y se incrementa en 2 (usa identity).
  
 
-####Caso 2: Modificación del modelo
+👉 Caso 2: Modificación del modelo
 Implementa, usando la sentencia ALTER TABLE, las restricciones necesarias para incorporar las siguientes reglas de negocio:
 
 •	Aunque el email de una persona es opcional, no se debe repetir.
@@ -50,7 +50,7 @@ Implementa, usando la sentencia ALTER TABLE, las restricciones necesarias para i
 •	Debes considerar que el sueldo mínimo del personal es de 450.000 pesos.
 
 
-####Caso 3: Poblamiento del modelo
+👉Caso 3: Poblamiento del modelo
 Consideraciones para el poblado de las tablas (ver Figura 2):
 
 Al poblar las tablas, ten en cuenta:
@@ -69,10 +69,10 @@ Solo debes poblar las siguientes 4 tablas y debes considerar que tu script se ej
 •	REGION (en la creación de la tabla utiliza identity)
  
 
-####Caso 4: Recuperación de Datos
+👉Caso 4: Recuperación de Datos
 Posteriormente al poblamiento de los datos, debes recuperar toda la información que el Departamento de Gestión del Personal te solicite, generando informes usando la sentencia SELECT de manera adecuada.
 
-#####INFORME 1:
+⭐⭐ INFORME 1 ⭐⭐
 
 El departamento encargado del personal, te solicita un informe con la información de todas las empresas pertenecientes a Holding Carpenter SPA. 
 Se requiere que el informe incluya los siguientes datos: 
@@ -88,7 +88,7 @@ Se requiere que el informe incluya los siguientes datos:
 Asigna a cada columna el alias indicado en la Figura 3 y ordena la información en función de la columna " Renta Promedio " de mayor a menor. En caso de empate, organiza las filas alfabéticamente por " Nombre Empresa ". 
 
 
-#####INFORME 2:
+⭐⭐ INFORME 2 ⭐⭐
 
 Para proponer una mejora salarial al personal de las empresas del holding, se requiere realizar una nueva simulación. Debes añadir un 15% adicional a los porcentajes actualmente registrados en la base de datos.
 El listado debe incluir los siguientes datos: 
